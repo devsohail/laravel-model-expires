@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/mvdnbrk/laravel-model-expires/main/docs/logo.png" alt="Laravel Model Expires">
+<img src="https://raw.githubusercontent.com/devsohail/laravel-model-expires/main/docs/logo.png" alt="Laravel Model Expires">
 
 ---
 
@@ -16,7 +16,7 @@
 You can install the package via composer:
 
 ```bash
-composer require mvdnbrk/laravel-model-expires
+composer require devsohail/laravel-model-expires
 ```
 ## Usage
 
@@ -28,7 +28,7 @@ To use an expiration date on a model, use the `Expirable` trait:
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Mvdnbrk\EloquentExpirable\Expirable;
+use Devsohail\EloquentExpirable\Expirable;
 
 class Subscription extends Model
 {
@@ -175,17 +175,3 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-[ico-php-version]: https://img.shields.io/packagist/php-v/mvdnbrk/laravel-model-expires?style=flat-square
-[ico-version]: https://img.shields.io/packagist/v/mvdnbrk/laravel-model-expires.svg?style=flat-square
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-tests]: https://img.shields.io/github/workflow/status/mvdnbrk/laravel-model-expires/tests/main?label=tests&style=flat-square
-[ico-code-style]: https://styleci.io/repos/220024174/shield?branch=main
-[ico-downloads]: https://img.shields.io/packagist/dt/mvdnbrk/laravel-model-expires.svg?style=flat-square
-
-[link-packagist]: https://packagist.org/packages/mvdnbrk/laravel-model-expires
-[link-tests]: https://github.com/mvdnbrk/laravel-model-expires/actions?query=workflow%3Atests
-[link-code-style]: https://styleci.io/repos/220024174
-[link-downloads]: https://packagist.org/packages/mvdnbrk/laravel-model-expires
-[link-author]: https://github.com/mvdnbrk
-[link-contributors]: ../../contributors

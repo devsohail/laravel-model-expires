@@ -1,9 +1,9 @@
 <?php
 
-namespace Mvdnbrk\EloquentExpirable\Tests\Models;
+namespace Devsohail\EloquentExpirable\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Mvdnbrk\EloquentExpirable\Expirable;
+use Devsohail\EloquentExpirable\Expirable;
 
 class Subscription extends Model
 {

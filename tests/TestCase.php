@@ -1,8 +1,8 @@
 <?php
 
-namespace Mvdnbrk\EloquentExpirable\Tests;
+namespace Devsohail\EloquentExpirable\Tests;
 
-use Mvdnbrk\EloquentExpirable\ExpirableServiceProvider;
+use Devsohail\EloquentExpirable\ExpirableServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra

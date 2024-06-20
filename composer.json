@@ -15,8 +15,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Mark van den Broek",
-            "email": "mvdnbrk@gmail.com",
+            "name": "Sohail Sajid",
+            "email": "sohailsajid32@gmail.com",
             "role": "Developer"
         }
     ],
@@ -37,18 +37,18 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mvdnbrk\\EloquentExpirable\\ExpirableServiceProvider"
+                "Devsohail\\EloquentExpirable\\ExpirableServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Mvdnbrk\\EloquentExpirable\\": "src"
+            "Devsohail\\EloquentExpirable\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mvdnbrk\\EloquentExpirable\\Tests\\": "tests"
+            "Devsohail\\EloquentExpirable\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",

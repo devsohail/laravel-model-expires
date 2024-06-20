@@ -1,6 +1,6 @@
 <?php
 
-namespace Mvdnbrk\EloquentExpirable;
+namespace Devsohail\EloquentExpirable;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\ServiceProvider;

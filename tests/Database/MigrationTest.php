@@ -1,11 +1,11 @@
 <?php
 
-namespace Mvdnbrk\EloquentExpirable\Tests\Database;
+namespace Devsohail\EloquentExpirable\Tests\Database;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Schema\ColumnDefinition;
 use Illuminate\Support\Facades\Schema;
-use Mvdnbrk\EloquentExpirable\Tests\TestCase;
+use Devsohail\EloquentExpirable\Tests\TestCase;
 
 class MigrationTest extends TestCase
 {
