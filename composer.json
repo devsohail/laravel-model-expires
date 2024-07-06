@@ -37,18 +37,18 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Devsohail\\EloquentExpirable\\ExpirableServiceProvider"
+                "devsohail\\laravel-model-expires\\EloquentExpirable\\ExpirableServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Devsohail\\EloquentExpirable\\": "src"
+            "devsohail\\laravel-model-expires\\EloquentExpirable\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Devsohail\\EloquentExpirable\\Tests\\": "tests"
+            "devsohail\\laravel-model-expires\\EloquentExpirable\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",
